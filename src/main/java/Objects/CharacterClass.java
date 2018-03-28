@@ -2,7 +2,13 @@ package Objects;
 
 
 //todo this will likely need work
-public class CharacterClasses {
+
+/**
+ *  Defines a subclass of a character
+ *  ie Barbarian, Bard, Fighter
+ *  mainClass boolean defines if the class is the starting class for multiclass purposes
+ */
+public class CharacterClass {
 
     private PCClass pcClass;
     private int classLevel;

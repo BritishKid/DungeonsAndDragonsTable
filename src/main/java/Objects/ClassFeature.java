@@ -1,5 +1,11 @@
 package Objects;
 
+
+/**
+ *  defines a class feature
+ *  ie Great Weapons Fighting
+ *  levelForFeature defines a level requirement to unlock said feature
+ */
 public class ClassFeature {
 
     private String featureName;

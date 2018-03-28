@@ -11,7 +11,7 @@ public class PlayerCharacter {
     private int hitPointsCurrent;
     private int proficiencyBonus;
 
-    private List<CharacterClasses> characterClasses;
+    private List<CharacterClass> characterClasses;
     private Race race;
 
     private Attributes attributes;
@@ -48,7 +48,7 @@ public class PlayerCharacter {
         return proficiencyBonus;
     }
 
-    public List<CharacterClasses> getCharacterClasses() {
+    public List<CharacterClass> getCharacterClasses() {
         return characterClasses;
     }
 
@@ -105,7 +105,7 @@ public class PlayerCharacter {
         this.proficiencyBonus = proficiencyBonus;
     }
 
-    public void setCharacterClasses(List<CharacterClasses> characterClasses) {
+    public void setCharacterClasses(List<CharacterClass> characterClasses) {
         this.characterClasses = characterClasses;
     }
     public void setRace(Race race) {

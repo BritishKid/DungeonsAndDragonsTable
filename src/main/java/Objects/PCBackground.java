@@ -2,12 +2,21 @@ package Objects;
 
 import java.util.List;
 
+
+/**
+ * Defines a background of the character
+ * i.e. Hermit, Soldier, Folk Hero
+ *
+ */
 public class PCBackground {
 
     private List<String> skillProficiency;
     private List<String> toolProficiency;
     private List<Equipment> backgroundStartingEquipment;
     private List<String> languages;
+
+    // [PS] how about this instead for proficiencies
+    private List<Proficiency> proficiencies;
 
     private String backgroundFeature;
     private String speciality;
