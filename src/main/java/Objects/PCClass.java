@@ -10,7 +10,7 @@ public class PCClass {
     private List<String> skillProficiency;
     private List<Equipment> classStartingEquipment;
     private String archetype;
-    private List<ClassFeatures> classFeatures;
+    private List<ClassFeature> classFeatures;
 
     //getters
     public String getClassName() {
@@ -37,7 +37,7 @@ public class PCClass {
         return archetype;
     }
 
-    public List<ClassFeatures> getClassFeatures() {
+    public List<ClassFeature> getClassFeatures() {
         return classFeatures;
     }
 
@@ -66,7 +66,7 @@ public class PCClass {
         this.archetype = archetype;
     }
 
-    public void setClassFeatures(List<ClassFeatures> classFeatures) {
+    public void setClassFeatures(List<ClassFeature> classFeatures) {
         this.classFeatures = classFeatures;
     }
 }

@@ -7,8 +7,9 @@ public class PCBackground {
     private List<String> skillProficiency;
     private List<String> toolProficiency;
     private List<Equipment> backgroundStartingEquipment;
+    private List<String> languages;
 
-    private String feature;
+    private String backgroundFeature;
     private String speciality;
 
     private String personalityTrait;
@@ -29,8 +30,12 @@ public class PCBackground {
         return backgroundStartingEquipment;
     }
 
-    public String getFeature() {
-        return feature;
+    public List<String> getLanguages() {
+        return languages;
+    }
+
+    public String getBackgroundFeature() {
+        return backgroundFeature;
     }
 
     public String getSpeciality() {
@@ -66,8 +71,12 @@ public class PCBackground {
         this.backgroundStartingEquipment = backgroundStartingEquipment;
     }
 
-    public void setFeature(String feature) {
-        this.feature = feature;
+    public void setLanguages(List<String> languages) {
+        this.languages = languages;
+    }
+
+    public void setBackgroundFeature(String backgroundFeature) {
+        this.backgroundFeature = backgroundFeature;
     }
 
     public void setSpeciality(String speciality) {

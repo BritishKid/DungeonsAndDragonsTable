@@ -2,7 +2,7 @@ package Objects;
 
 
 //todo this will likely need work
-public class Classes {
+public class CharacterClasses {
 
     private PCClass pcClass;
     private int classLevel;

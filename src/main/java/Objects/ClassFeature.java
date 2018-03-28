@@ -1,9 +1,9 @@
 package Objects;
 
-public class ClassFeatures {
+public class ClassFeature {
 
     private String featureName;
-    private String featureDescription;
+    private String featureDescription; //todo maybe create into a generic object
     private int levelForFeature;
 
     //getters

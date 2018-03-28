@@ -11,7 +11,7 @@ public class PlayerCharacter {
     private int hitPointsCurrent;
     private int proficiencyBonus;
 
-    private List<Classes> classes;
+    private List<CharacterClasses> characterClasses;
     private Race race;
 
     private Attributes attributes;
@@ -19,6 +19,7 @@ public class PlayerCharacter {
     private PCBackground background;
     private String alignment;
     private List<Skills> skills;
+    private List<String> languages;
 
     private List<Equipment> playersEquipment;
 
@@ -47,8 +48,8 @@ public class PlayerCharacter {
         return proficiencyBonus;
     }
 
-    public List<Classes> getClasses() {
-        return classes;
+    public List<CharacterClasses> getCharacterClasses() {
+        return characterClasses;
     }
 
     public Race getRace() {
@@ -73,6 +74,10 @@ public class PlayerCharacter {
 
     public List<Equipment> getPlayersEquipment() {
         return playersEquipment;
+    }
+
+    public List<String> getLanguages() {
+        return languages;
     }
 
     //setters
@@ -100,10 +105,9 @@ public class PlayerCharacter {
         this.proficiencyBonus = proficiencyBonus;
     }
 
-    public void setClasses(List<Classes> classes) {
-        this.classes = classes;
+    public void setCharacterClasses(List<CharacterClasses> characterClasses) {
+        this.characterClasses = characterClasses;
     }
-
     public void setRace(Race race) {
         this.race = race;
     }
@@ -126,5 +130,9 @@ public class PlayerCharacter {
 
     public void setPlayersEquipment(List<Equipment> playersEquipment) {
         this.playersEquipment = playersEquipment;
+    }
+
+    public void setLanguages(List<String> languages) {
+        this.languages = languages;
     }
 }

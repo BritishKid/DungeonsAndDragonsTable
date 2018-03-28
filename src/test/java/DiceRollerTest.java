@@ -17,7 +17,6 @@ public class DiceRollerTest {
         //then
         assert(diceResult <= 4 &&
                 diceResult > 0);
-
     }
 
     @Test
