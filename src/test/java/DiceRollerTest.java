@@ -1,20 +1,23 @@
 import org.junit.Test;
 
-class diceRollerTest {
+import static org.junit.Assert.assertTrue;
 
-    private DiceRoller diceRoller = new DiceRoller();
+public class DiceRollerTest {
+
 
     @Test
-    public void whenGiven1d4DiceRollsAbove0AndLessThan5() throws Exception {
+    public void whenGiven1d4DiceRollsAbove0AndLessThan5(){
+
         //given
         int numberOfDice = 1;
-        int diceValue = 1;
+        int diceValue = 4;
 
         //when
         int diceResult = DiceRoller.rollDice(numberOfDice, diceValue);
         //then
         assert(diceResult <= 4 &&
                 diceResult > 0);
+
     }
 
     @Test
@@ -30,5 +33,6 @@ class diceRollerTest {
         assert(diceResult <= 13 &&
                 diceResult > 1);
     }
+
 
 }
