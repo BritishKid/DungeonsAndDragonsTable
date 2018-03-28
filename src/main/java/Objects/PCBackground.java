@@ -10,12 +10,9 @@ import java.util.List;
  */
 public class PCBackground {
 
-    private List<String> skillProficiency;
-    private List<String> toolProficiency;
+    private List<Skill> skillProficiency;
     private List<Equipment> backgroundStartingEquipment;
-    private List<String> languages;
 
-    // [PS] how about this instead for proficiencies
     private List<Proficiency> proficiencies;
 
     private String backgroundFeature;
@@ -27,20 +24,16 @@ public class PCBackground {
     private String flaw;
 
     //getters
-    public List<String> getSkillProficiency() {
+    public List<Skill> getSkillProficiency() {
         return skillProficiency;
-    }
-
-    public List<String> getToolProficiency() {
-        return toolProficiency;
     }
 
     public List<Equipment> getBackgroundStartingEquipment() {
         return backgroundStartingEquipment;
     }
 
-    public List<String> getLanguages() {
-        return languages;
+    public List<Proficiency> getProficiencies() {
+        return proficiencies;
     }
 
     public String getBackgroundFeature() {
@@ -68,20 +61,16 @@ public class PCBackground {
     }
 
     //setters
-    public void setSkillProficiency(List<String> skillProficiency) {
+    public void setSkillProficiency(List<Skill> skillProficiency) {
         this.skillProficiency = skillProficiency;
-    }
-
-    public void setToolProficiency(List<String> toolProficiency) {
-        this.toolProficiency = toolProficiency;
     }
 
     public void setBackgroundStartingEquipment(List<Equipment> backgroundStartingEquipment) {
         this.backgroundStartingEquipment = backgroundStartingEquipment;
     }
 
-    public void setLanguages(List<String> languages) {
-        this.languages = languages;
+    public void setProficiencies(List<Proficiency> proficiencies) {
+        this.proficiencies = proficiencies;
     }
 
     public void setBackgroundFeature(String backgroundFeature) {

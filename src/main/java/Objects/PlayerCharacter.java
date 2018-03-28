@@ -18,7 +18,7 @@ public class PlayerCharacter {
 
     private PCBackground background;
     private String alignment;
-    private List<Skills> skills;
+    private List<Skill> skills;
     private List<String> languages;
 
     private List<Equipment> playersEquipment;
@@ -70,7 +70,7 @@ public class PlayerCharacter {
         return alignment;
     }
 
-    public List<Skills> getSkills() {
+    public List<Skill> getSkills() {
         return skills;
     }
 
@@ -126,7 +126,7 @@ public class PlayerCharacter {
         this.alignment = alignment;
     }
 
-    public void setSkills(List<Skills> skills) {
+    public void setSkills(List<Skill> skills) {
         this.skills = skills;
     }
 

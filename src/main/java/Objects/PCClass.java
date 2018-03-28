@@ -7,7 +7,7 @@ public class PCClass {
     private String className;
     private int hitDice;
     private boolean spellCaster;
-    private List<String> skillProficiency;
+    private List<Skill> skillProficiency;
     private List<Equipment> classStartingEquipment;
     private String archetype;
     private List<ClassFeature> classFeatures;
@@ -25,7 +25,7 @@ public class PCClass {
         return spellCaster;
     }
 
-    public List<String> getSkillProficiency() {
+    public List<Skill> getSkillProficiency() {
         return skillProficiency;
     }
 
@@ -54,7 +54,7 @@ public class PCClass {
         this.spellCaster = spellCaster;
     }
 
-    public void setSkillProficiency(List<String> skillProficiency) {
+    public void setSkillProficiency(List<Skill> skillProficiency) {
         this.skillProficiency = skillProficiency;
     }
 
