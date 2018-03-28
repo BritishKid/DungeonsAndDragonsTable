@@ -14,7 +14,7 @@ public class PlayerCharacter {
     private List<CharacterClass> characterClasses;
     private Race race;
 
-    private Attributes attributes;
+    private List<Attribute> attributes;
 
     private PCBackground background;
     private String alignment;
@@ -22,6 +22,8 @@ public class PlayerCharacter {
     private List<String> languages;
 
     private List<Equipment> playersEquipment;
+
+
 
     //getters
     public String getCharacterName() {
@@ -56,7 +58,7 @@ public class PlayerCharacter {
         return race;
     }
 
-    public Attributes getAttributes() {
+    public List<Attribute> getAttributes() {
         return attributes;
     }
 
@@ -112,7 +114,7 @@ public class PlayerCharacter {
         this.race = race;
     }
 
-    public void setAttributes(Attributes attributes) {
+    public void setAttributes(List<Attribute> attributes) {
         this.attributes = attributes;
     }
 
