@@ -1,11 +1,12 @@
 package Objects;
 
 import java.util.List;
+import java.util.Map;
 
 public class PlayerCharacter {
 
     private String characterName;
-    private String playerName; //todo will this be lnked to an account?
+    private String playerName; //todo will this be linked to an account?
     private int experiencePoints;
     private int hitPointsMaximum;
     private int hitPointsCurrent;
@@ -14,16 +15,14 @@ public class PlayerCharacter {
     private List<CharacterClass> characterClasses;
     private Race race;
 
-    private List<Attribute> attributes;
+    private Map<String, Attribute> attributes;
 
     private PCBackground background;
     private String alignment;
-    private List<Skill> skills;
+    private Map<String, Skill> skills;
     private List<String> languages;
 
     private List<Equipment> playersEquipment;
-
-
 
     //getters
     public String getCharacterName() {
@@ -58,7 +57,7 @@ public class PlayerCharacter {
         return race;
     }
 
-    public List<Attribute> getAttributes() {
+    public Map<String, Attribute> getAttributes() {
         return attributes;
     }
 
@@ -70,7 +69,7 @@ public class PlayerCharacter {
         return alignment;
     }
 
-    public List<Skill> getSkills() {
+    public Map<String, Skill> getSkills() {
         return skills;
     }
 
@@ -114,7 +113,7 @@ public class PlayerCharacter {
         this.race = race;
     }
 
-    public void setAttributes(List<Attribute> attributes) {
+    public void setAttributes(Map<String, Attribute> attributes) {
         this.attributes = attributes;
     }
 
@@ -126,7 +125,7 @@ public class PlayerCharacter {
         this.alignment = alignment;
     }
 
-    public void setSkills(List<Skill> skills) {
+    public void setSkills(Map<String, Skill> skills) {
         this.skills = skills;
     }
 
@@ -137,4 +136,21 @@ public class PlayerCharacter {
     public void setLanguages(List<String> languages) {
         this.languages = languages;
     }
+
+    //todo update when neeeded
+//    public void calculateSkillValue(String attributeUpdated) {
+//        int skillValue = 0;
+//
+//        getSkills().get();
+//        if (isSkillProficiency()) {
+//            skillValue = skillValue + proficiencyModifier; //if proficient add modifier
+//        }
+//        if (isSkillExpertise()) {
+//            skillValue = skillValue + proficiencyModifier; //if expertise add modifier
+//        }
+//        skillValue = skillValue + getSkillOtherModifier(); // add any bonus modifiers
+//
+//        this.skillValue = skillValue;
+//    }
+
 }

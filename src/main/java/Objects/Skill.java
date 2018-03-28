@@ -68,16 +68,4 @@ public class Skill {
         this.skillValue = skillValue;
     }
 
-    public void calculateSkillValue(int proficiencyModifier, int attributeModifier) {
-        int skillValue = attributeModifier;
-        if (isSkillProficiency()) {
-            skillValue = skillValue + proficiencyModifier; //if proficient add modifier
-        }
-        if (isSkillExpertise()) {
-            skillValue = skillValue + proficiencyModifier; //if expertise add modifier
-        }
-        skillValue = skillValue + getSkillOtherModifier(); // add any bonus modifiers
-
-            this.skillValue = skillValue;
-    }
 }

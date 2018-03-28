@@ -40,4 +40,6 @@ public class Attribute {
     public void setAttributeModifier(int attributeModifier) {
         this.attributeModifier = attributeModifier;
     }
+
 }
+
