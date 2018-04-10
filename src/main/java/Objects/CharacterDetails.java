@@ -3,10 +3,10 @@ package Objects;
 import java.util.List;
 import java.util.Map;
 
-public class PlayerCharacter {
-
+public class CharacterDetails {
+    
     private String characterName;
-    private String playerName; //todo will this be linked to an account?
+    private String playerName; //todo will this be linked to an account or dm/campaign/session?
     private int experiencePoints;
     private int hitPointsMaximum;
     private int hitPointsCurrent;
@@ -137,7 +137,7 @@ public class PlayerCharacter {
         this.languages = languages;
     }
 
-    //todo update when neeeded
+    //todo update when needed and move to correct class
 //    public void calculateSkillValue(String attributeUpdated) {
 //        int skillValue = 0;
 //
