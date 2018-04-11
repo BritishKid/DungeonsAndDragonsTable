@@ -1,4 +1,8 @@
+import org.apache.log4j.Logger;
+
 class DiceRoller {
+
+    private static org.apache.log4j.Logger log = Logger.getLogger(DiceRoller.class);
 
     DiceRoller() {
     }
@@ -8,7 +12,7 @@ class DiceRoller {
         int rolls = 0;
         int result = 0;
 
-        System.out.println("Rolling " + numberOfDice + "d" + diceValue);
+        log.debug("Rolling " + numberOfDice + "d" + diceValue);
 
         while(rolls < numberOfDice){
             int diceResult = (int) ((Math.random() * diceValue) + 1);
