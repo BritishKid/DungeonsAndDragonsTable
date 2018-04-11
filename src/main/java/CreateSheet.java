@@ -5,10 +5,10 @@ import org.apache.log4j.Logger;
 import java.io.File;
 import java.io.IOException;
 
-public class CreateSheet {
+class CreateSheet {
     private static org.apache.log4j.Logger log = Logger.getLogger(CreateSheet.class);
 
-    public void createSheetFromPlayer(CharacterDetails player) throws IOException, CharacterSheetSaveFaliureException {
+    void createSheetFromPlayer(CharacterDetails player) throws IOException, CharacterSheetSaveFaliureException {
 
         isAbleToSave(player);
 

@@ -1,0 +1,273 @@
+{
+  "CharacterName": "Character_Name",
+  "PlayerName": "Player_Name",
+  "ExperiencePoints": 0,
+  "CharacterClasses": [{
+    "ClassName": "Class_Name",
+    "ClassLevel": 0
+    },
+    {
+    "ClassName": "Class_Name",
+    "ClassLevel": 0
+    }],
+  "Race": "Character_Race",
+  "Background": "Character_Background",
+  "Alignment": "Character_Alignment",
+
+  "Inspiration": false,
+  "ProficiencyBonus": 0,
+  "Attributes": {
+    "Strength": 0,
+    "Dexterity": 0,
+    "Constitution": 0,
+    "Intelligence": 0,
+    "Wisdom": 0,
+    "Charisma": 0
+  },
+  "SavingThrows": {
+    "Strength": 0,
+    "Dexterity": 0,
+    "Constitution": 0,
+    "Intelligence": 0,
+    "Wisdom": 0,
+    "Charisma": 0
+  },
+  "Skills": {
+    "Strength": {
+      "Athletics": 0
+    },
+    "Dexterity": {
+      "Acrobatics": 0,
+      "Sleight of Hand": 0,
+      "Stealth": 0
+    },
+    "Intelligence":{
+      "Arcana": 0,
+      "History": 0,
+      "Investigation": 0,
+      "Nature": 0,
+      "Religion  ": 0
+    },
+    "Wisdom" : {
+      "Animal Handling": 0,
+      "Insight": 0,
+      "Medicine": 0,
+      "Perception": 0,
+      "Survival ": 0
+    },
+    "Charisma": {
+      "Deception": 0,
+      "Intimidation": 0,
+      "Performance": 0,
+      "Persuasion": 0
+    },
+    "PassivePerception": 0
+  },
+
+  "ArmourClass": 0,
+  "Initiative": 0,
+  "Speed": 0,
+  "HitPointsMax": 0,
+  "HitPointCurrent": 0,
+  "TemporaryHitPoints": 0,
+  "HitDice": 0,
+  "DeathSaves": {
+    "Success": 0,
+    "Failures": 0
+  },
+
+  "PersonalityTrait": "Character Personality Trait",
+  "Ideals": "Character Ideals",
+  "Bonds": "Character Bonds",
+  "Flaws": "Character Flaws",
+
+  "Attacks": [
+    {
+      "AttackName": "Name of first attack",
+      "Attribute": "STR/DEX/CON/INT/WIS/CHA",
+      "ModifierToHit": 0,
+      "DamageDice": "nDn",
+      "ModifierToDamage": 0,
+      "DamageType": "Slashing/Piercing/Cold",
+      "Magical": false,
+      "Spell": "Name of spell it links to allowing programme to update spellsheet accordingly",
+      "Description": "Any other information, something may need to be added for secondary effects or spells with dual damage types"
+    },
+    {
+      "AttackName": "Name of first attack",
+      "Attribute": "STR/DEX/CON/INT/WIS/CHA",
+      "ModifierToHit": 0,
+      "DamageDice": "nDn",
+      "ModifierToDamage": 0,
+      "DamageType": "Slashing/Piercing/Cold",
+      "Magical": false,
+      "Spell": "Name of spell it links to allowing programme to update spellsheet accordingly",
+      "Description": "Any other information, something may need to be added for secondary effects"
+    }
+  ],
+
+  "Languages": [
+    "Common"
+  ],
+  "OtherProficiencies":[
+    "Tools/Vehicles. Extra information may be needed for use in future"
+  ],
+
+  "Coins": {
+    "Platinum": 0,
+    "Gold": 0,
+    "Silver": 0,
+    "Copper": 0
+  },
+  "Equipment": [
+    {
+      "EquipmentName": "Name of first item",
+      "Weight": 0,
+      "Amount": 0,
+      "Description": "Description of the first item"
+    },
+    {
+      "EquipmentName": "Name of second item",
+      "Weight": 0,
+      "Amount": 0,
+      "Description": "Description of the second item"
+    }
+  ],
+
+  "FeaturesAndTraits": [
+    {
+      "FeatureName": "Name of first Feature",
+      "FeatureDescription": "Something will need to be added here to make usable"
+    },
+    {
+      "FeatureName": "Name of second Feature",
+      "FeatureDescription": "Something will need to be added here to make usable"
+    }
+  ],
+
+  "SpellCaster": false,
+
+  "SpellCastingAbility": "INT/WIS/CHA",
+  "SpellSaveDC": 0,
+  "SpellAttackBonus": 0,
+  "SpellSlots": [
+    {
+      "SpellLevel": 1,
+      "MaximumSlots": 0,
+      "CurrentSlots": 0
+    },
+    {
+      "SpellLevel": 2,
+      "MaximumSlots": 0,
+      "CurrentSlots": 0
+    },
+    {
+      "SpellLevel": 3,
+      "MaximumSlots": 0,
+      "CurrentSlots": 0
+    },
+    {
+      "SpellLevel": 4,
+      "MaximumSlots": 0,
+      "CurrentSlots": 0
+    },
+    {
+      "SpellLevel": 5,
+      "MaximumSlots": 0,
+      "CurrentSlots": 0
+    },
+    {
+      "SpellLevel": 6,
+      "MaximumSlots": 0,
+      "CurrentSlots": 0
+    },
+    {
+      "SpellLevel": 7,
+      "MaximumSlots": 0,
+      "CurrentSlots": 0
+    },
+    {
+      "SpellLevel": 8,
+      "MaximumSlots": 0,
+      "CurrentSlots": 0
+    },
+    {
+      "SpellLevel": 9,
+      "MaximumSlots": 0,
+      "CurrentSlots": 0
+    }
+  ],
+
+  "FirstLevelSpells": [
+    {
+      "SpellName": "Name of Spell",
+      "SpellType": "Attack or something else to define how its read. Linking damage/heals to attacks/spellcasting section should limit this",
+      "SpellDescription": "Description of what the spell does may need more information",
+      "Prepared": false
+    }
+  ],
+  "SecondLevelSpells": [
+    {
+      "SpellName": "Name of Spell",
+      "SpellType": "Attack or something else to define how its read. Linking damage/heals to attacks/spellcasting section should limit this",
+      "SpellDescription": "Description of what the spell does may need more information",
+      "Prepared": false
+   }
+  ],
+  "ThirdLevelSpells": [
+    {
+      "SpellName": "Name of Spell",
+      "SpellType": "Attack or something else to define how its read. Linking damage/heals to attacks/spellcasting section should limit this",
+      "SpellDescription": "Description of what the spell does may need more information",
+      "Prepared": false
+    }
+  ],
+  "FourthLevelSpells": [
+    {
+      "SpellName": "Name of Spell",
+      "SpellType": "Attack or something else to define how its read. Linking damage/heals to attacks/spellcasting section should limit this",
+      "SpellDescription": "Description of what the spell does may need more information",
+      "Prepared": false
+   }
+  ],
+  "FifthLevelSpells": [
+    {
+      "SpellName": "Name of Spell",
+      "SpellType": "Attack or something else to define how its read. Linking damage/heals to attacks/spellcasting section should limit this",
+      "SpellDescription": "Description of what the spell does may need more information",
+      "Prepared": false
+    }
+  ],
+  "SixthLevelSpells": [
+    {
+      "SpellName": "Name of Spell",
+      "SpellType": "Attack or something else to define how its read. Linking damage/heals to attacks/spellcasting section should limit this",
+      "SpellDescription": "Description of what the spell does may need more information",
+      "Prepared": false
+   }
+  ],
+  "SeventhLevelSpells": [
+    {
+      "SpellName": "Name of Spell",
+      "SpellType": "Attack or something else to define how its read. Linking damage/heals to attacks/spellcasting section should limit this",
+      "SpellDescription": "Description of what the spell does may need more information",
+      "Prepa  red": false
+    }
+  ],
+  "EigthLevelSpells": [
+    {
+      "SpellName": "Name of Spell",
+      "SpellType": "Attack or something else to define how its read. Linking damage/heals to attacks/spellcasting section should limit this",
+      "SpellDescription": "Description of what the spell does may need more information",
+      "Prepared": false
+   }
+  ],
+  "NinthLevelSpells": [
+    {
+      "SpellName": "Name of Spell",
+      "SpellType": "Attack or something else to define how its read. Linking damage/heals to attacks/spellcasting section should limit this",
+      "SpellDescription": "Description of what the spell does may need more information",
+      "Prepared": false
+    }
+  ]
+}
