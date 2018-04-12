@@ -122,14 +122,22 @@
   "Equipment": [
     {
       "EquipmentName": "Name of first item",
+      "Type": "Weapon/Armour/Trinket/Wand/Scroll etc",
       "Weight": 0,
       "Amount": 0,
+      "Properties": [
+        "Properties the object has if any"
+      ],
       "Description": "Description of the first item"
     },
     {
       "EquipmentName": "Name of second item",
+      "Type": "Weapon/Armour/Trinket/Wand/Scroll etc",
       "Weight": 0,
       "Amount": 0,
+      "Properties": [
+        "Properties the object has if any"
+      ],
       "Description": "Description of the second item"
     }
   ],
@@ -251,10 +259,10 @@
       "SpellName": "Name of Spell",
       "SpellType": "Attack or something else to define how its read. Linking damage/heals to attacks/spellcasting section should limit this",
       "SpellDescription": "Description of what the spell does may need more information",
-      "Prepa  red": false
+      "Prepared": false
     }
   ],
-  "EigthLevelSpells": [
+  "EighthLevelSpells": [
     {
       "SpellName": "Name of Spell",
       "SpellType": "Attack or something else to define how its read. Linking damage/heals to attacks/spellcasting section should limit this",

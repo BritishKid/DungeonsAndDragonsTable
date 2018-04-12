@@ -1,0 +1,11 @@
+Classes.json only uses single choice for starting equipment, will need to be updated to reflect choices
+
+packs will need to be worked to keep track of what's used in them or seperate out into specific items
+
+Javelins are set to 1gp when they are 5sp
+
+Rage and other similar features will need formatting for description for printing and something else to track in game usage/damage etc
+
+Primal path description needs to be updated to reflect new archetypes]
+
+Brutal Critical - currently a single point, could be added as 3 seperate one each one adds an extra die to counter when we work out how it will be added

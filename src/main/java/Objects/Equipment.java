@@ -1,11 +1,15 @@
 package Objects;
 
+import java.util.List;
+
 public class Equipment {
 
+    //todo generic this and have weapon and armour inherit as their own type
     private String name;
     private String type;
     private int weight; //todo change from int to more viable data type
     private int amount;
+    private int value; //values are in gp, may need to change out of int for smaller values or String including coin type
     private String information;
 
     //getters
@@ -23,6 +27,10 @@ public class Equipment {
 
     public int getAmount() {
         return amount;
+    }
+
+    public int getValue() {
+        return value;
     }
 
     public String getInformation() {
@@ -44,6 +52,10 @@ public class Equipment {
 
     public void setAmount(int amount) {
         this.amount = amount;
+    }
+
+    public void setValue(int value) {
+        this.value = value;
     }
 
     public void setInformation(String information) {

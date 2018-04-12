@@ -7,7 +7,7 @@ public class PCClass {
     private String className;
     private int hitDice;
     private boolean spellCaster;
-    private List<Skill> skillProficiency;
+    private List<Skill> skillProficiency; //todo update to include weapon, armour and tool proficiencies
     private List<Equipment> classStartingEquipment;
     private String archetype;
     private List<ClassFeature> classFeatures;
