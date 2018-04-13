@@ -1,5 +1,6 @@
 package Objects;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -135,6 +136,28 @@ public class CharacterDetails {
 
     public void setLanguages(List<String> languages) {
         this.languages = languages;
+    }
+
+    //add single object to lists
+    public void addNewClass(CharacterClass characterClass){
+        if(this.characterClasses == null){
+            this.characterClasses = new ArrayList<>();
+        }
+        characterClasses.add(characterClass);
+    }
+
+    public void addNewLanguage(String language){
+        if(this.languages == null){
+            this.languages = new ArrayList<String>();
+        }
+        languages.add(language);
+    }
+
+    public void addNewEquipment(Equipment equipment){
+        if(this.playersEquipment == null){
+            this.playersEquipment = new ArrayList<>();
+        }
+        playersEquipment.add(equipment);
     }
 
     //todo update when needed and move to correct class
