@@ -22,18 +22,21 @@ class CreateSheet {
 
     private void isAbleToSave(CharacterDetails player) throws CharacterSheetSaveFaliureException {
         StringBuilder errorMessage = new StringBuilder();
+        Boolean hasFailed = false;
 
         if(player.getCharacterName() == null || player.getCharacterName().isEmpty()) {
             log.warn("No character name present when saving character sheet to JSON");
             errorMessage.append("No Character Name, ");
+            hasFailed = true;
         }
         if(player.getPlayerName() == null || player.getPlayerName().isEmpty()) {
             log.warn("No player name present when saving character sheet to JSON");
             errorMessage.append("No Player Name, ");
+            hasFailed = true;
         }
         //todo add more validations
 
-        if(errorMessage != null){
+        if(hasFailed){
             throw new CharacterSheetSaveFaliureException(errorMessage.toString());
         }
     }
