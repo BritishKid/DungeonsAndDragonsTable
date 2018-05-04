@@ -31,7 +31,7 @@ class CreateSheet {
         }
         if(player.getPlayerName() == null || player.getPlayerName().isEmpty()) {
             log.warn("No player name present when saving character sheet to JSON");
-            errorMessage.append("No Player Name, ");
+            errorMessage.append("No Player Name, "); //text isn't perfect will need altering to be tidier
             hasFailed = true;
         }
         //todo add more validations

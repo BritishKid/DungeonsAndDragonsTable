@@ -22,4 +22,12 @@ class DiceRoller {
 
         return result;
     }
+
+    //common dice rolls
+
+    static int rollD20(){
+        log.debug("Rolling 1d20");
+
+        return (int) ((Math.random() * 20) + 1);
+    }
 }
