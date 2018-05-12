@@ -10,13 +10,13 @@ package Objects;
  */
 public class CharacterClass {
 
-    private PCClass pcClass;
-    private int classLevel;
+    private String className;
+    private int classLevel = 0;
     private boolean mainClass;
 
     //getters
-    public PCClass getPcClass() {
-        return pcClass;
+    public String getClassName() {
+        return className;
     }
 
     public int getClassLevel() {
@@ -28,8 +28,8 @@ public class CharacterClass {
     }
 
     //setters
-    public void setPcClass(PCClass pcClass) {
-        this.pcClass = pcClass;
+    public void setClassName(String className) {
+        this.className = className;
     }
 
     public void setClassLevel(int classLevel) {
